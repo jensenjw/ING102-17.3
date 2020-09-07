@@ -62,3 +62,10 @@ ul {
   li a:hover {
     background-color: blue;
   }
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  .left, .right, .middle {
+    width: 33.33%;
+  }
