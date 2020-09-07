@@ -7,6 +7,12 @@ h1 {
     float: left;
     text-align: left;
 }
+h2 {
+  color: white; 
+  float: left;
+  text-align: left;
+}
+
 
 a {
     color: white; 
@@ -25,6 +31,11 @@ p {
     font-size: 24px;
     color: white;
     text-align: center;
+}
+p.lading{
+  font-size: 24px;
+    color: white;
+    text-align: left;
 }
 ul {
     list-style-type: none;
