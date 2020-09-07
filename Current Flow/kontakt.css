@@ -1,0 +1,13 @@
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+  .left, .right, .middle {
+    width: 33.33%;
+  }
+  .row {
+      content: "";
+      display: table;
+      clear: both;
+  }
