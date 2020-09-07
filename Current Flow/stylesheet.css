@@ -2,11 +2,21 @@ body {
     background-color:#254e5a;
 } 
 
+div.text {
+  text-align: left;
+}
+
 h1 {
     color: white; 
     float: left;
     text-align: left;
 }
+h2 {
+  color: white; 
+  float: left;
+  text-align: left;
+}
+
 
 a {
     color: white; 
@@ -26,12 +36,23 @@ p {
     color: white;
     text-align: center;
 }
+p.lading{
+  font-size: 24px;
+    color: white;
+    text-align: left;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: black;
   }
   
   li {
@@ -44,9 +65,17 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: lightblue;
+    background-color: blue;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  .left, .right, .middle {
+    width: 33.33%;
   }
