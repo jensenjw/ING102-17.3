@@ -1,6 +1,11 @@
 
 div.column {
-    float: right;
+  column-count: 1;
+}
+div.column2 {
+  column-count: 1;
+  float: right;
+}
 body {
   background-color:#254e5a;
 } 
