@@ -1,13 +1,57 @@
-
+/*koder for å få kontakt på riktige kolonner*/
+div.column {
+  column-count: 1;
+}
+div.column2 {
+  column-count: 1;
+  float: right;
+}
+div.column3 {
+  column-count: 1;
+  text-align: center;
+}
+body {
+  background-color:#377385;
+} 
+p {
+  font-size: 24px;
+}
 .column {
     float: left;
     padding: 10px;
-  }
-  .left, .right, .middle {
-    width: 33.33%;
   }
   .row {
       content: "";
       display: table;
       clear: both;
   }
+
+
+/* CSS for Nav Bar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: blue;
+  }
+  /* CSS for Nav Bar stopper her */
