@@ -5,13 +5,15 @@
         <title>Ladestasjoner</title>
     </head>
     <body>
-        <ul>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="Om.html">Info</a></li>
-            <li><a href="Ladingside.html">Ladestasjoner</a></li>
-            <li><a href="hjem.html">Hjem</a></li>
-        </ul>
-
+        <div class = "NavBar">
+            <ul>
+                <li><a href="Index.html">Hjem</a></li>
+                <li><a href="Ladingside.html">Ladestasjoner</a></li>
+                <li><a href="Om.html">Info</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        
         <img src="https://bil24.no/wp-content/uploads/2019/01/Ionity-1.jpg">
         <div class="text">
          <h1 class="lading">Generell informasjon</h1><br> 
@@ -28,6 +30,20 @@
             frameborder="1"
             scrolling="yes">
         </iframe>
+
+        <p>Velg fylke du vil finne ladestasjon til</p>
+        <select name="fylke">
+            <option value="vestland">Vestland</option>
+            <option value="rogaland">Rogaland</option>
+            <option value="vest-agder">Vest-Agder</option>
+        </select>
+
+        <p>Velg hvilket sted du vil finne ladestasjon til</p>
+        <select name="sted">
+            <option value="bergen">Bergen</option>
+            <option value="stavanger">Stavanger</option>
+            <option value="kristiansand">Kristiansand</option>
+        </select>
 
             
     
