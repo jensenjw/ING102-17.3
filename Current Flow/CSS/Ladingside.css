@@ -1,3 +1,4 @@
+/* CSS for Nav Bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,17 +11,27 @@ ul {
     float: left;
   }
   
+  
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 24px;
     
   }
+
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: blue;
   }
 
+/* CSS for Nav Bar stopper her */
+
+.responsive {
+  width: 100%;
+  height: auto;
+  float: left;
+}
