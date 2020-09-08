@@ -9,6 +9,9 @@ div.column2 {
 body {
   background-color:#377385;
 } 
+p {
+  font-size: 24px;
+}
 .column {
     float: left;
     padding: 10px;
@@ -39,6 +42,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 24px;
     
   }
   

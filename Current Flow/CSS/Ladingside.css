@@ -11,14 +11,17 @@ ul {
     float: left;
   }
   
+  
   li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 24px;
     
   }
+
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
