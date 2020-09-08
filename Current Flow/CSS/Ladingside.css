@@ -1,3 +1,4 @@
+/* CSS for Nav Bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,3 +25,10 @@ ul {
     background-color: blue;
   }
 
+/* CSS for Nav Bar stopper her */
+
+.responsive {
+  width: 100%;
+  height: auto;
+  float: left;
+}
