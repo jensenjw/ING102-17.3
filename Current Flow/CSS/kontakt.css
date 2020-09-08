@@ -1,10 +1,7 @@
 
-.column {
-    float: left;
+div.column {
+    float: right;
     padding: 10px;
-  }
-  .left, .right, .middle {
-    width: 33.33%;
   }
   .row {
       content: "";
