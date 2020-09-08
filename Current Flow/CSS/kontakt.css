@@ -1,13 +1,17 @@
 
+div.column {
+  column-count: 1;
+}
+div.column2 {
+  column-count: 1;
+  float: right;
+}
 body {
-  background-color:#254e5a;
+  background-color:#377385;
 } 
 .column {
     float: left;
     padding: 10px;
-  }
-  .left, .right, .middle {
-    width: 33.33%;
   }
   .row {
       content: "";
