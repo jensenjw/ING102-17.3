@@ -1,14 +1,15 @@
 /*koder for å få kontakt på riktige kolonner*/
-div.column {
+div.columnleft {
   column-count: 1;
+  float: left;
 }
-div.column2 {
+div.columnright {
   column-count: 1;
   float: right;
 }
-div.column3 {
+div.columnmid {
   column-count: 1;
-  text-align: center;
+  /*text-align: center;*/
 }
 .column, .column2, .column3 {
   width: 33.33%;
