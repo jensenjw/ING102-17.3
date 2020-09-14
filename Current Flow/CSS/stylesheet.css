@@ -2,14 +2,6 @@
 body {
     background-color:#254e5a;
 } 
-
-.column {
-  float: left;
-  padding: 10px;
-}
-  .left, .right, .middle {
-    width: 33.33%;
-}
 div.text {
   text-align: left;
 }
