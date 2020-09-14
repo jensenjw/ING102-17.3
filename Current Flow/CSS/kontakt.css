@@ -1,7 +1,6 @@
 div.kontaktadresse > p {
   text-align: left;
 }
-<<<<<<< HEAD
 
 div.kontaktadresse > h2 {
   text-align: left;
@@ -9,15 +8,6 @@ div.kontaktadresse > h2 {
 
 div.tider {
   text-align: left;
-=======
-div.columnright {
-  column-count: 1;
-  float: right;
-}
-div.columnmid {
-  column-count: 1;
-  float: middle;
->>>>>>> a9ea1f6f9a3fe000a1005864142d16eea8a60054
 }
 
 
