@@ -9,10 +9,7 @@ div.columnright {
 }
 div.columnmid {
   column-count: 1;
-  /*text-align: center;*/
-}
-.column, .column2, .column3 {
-  width: 33.33%;
+  float: middle;
 }
 .row {
   content: "";
