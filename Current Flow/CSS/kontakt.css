@@ -1,20 +1,46 @@
-/*koder for å få kontakt på riktige kolonner*/
+div.row {
+  content: "";
+  display: table;
+  clear: all;
+}
+
 div.columnleft {
   column-count: 1;
   float: left;
 }
+
+div.kontaktadresse > p {
+  text-align: left;
+}
+
+div.kontaktadresse > h2 {
+  text-align: left;
+}
+
+div.tider {
+  text-align: left;
+}
+
 div.columnright {
   column-count: 1;
   float: right;
 }
+
 div.columnmid {
   column-count: 1;
   float: middle;
 }
-.row {
-  content: "";
-  display: table;
-  clear: both;
+
+
+div.kundeservice > h2 {
+  text-align: right; 
 }
 
+div.kundeservice > p {
+  text-align: right; 
 
+}
+div.columnmiddle > a {
+  float: center;
+
+}
