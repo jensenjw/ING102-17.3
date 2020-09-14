@@ -7,11 +7,8 @@ ul.NavBar {
     background-color: black;
 }
   
-    li {
-    float: left;
-    }
-  
     li.NavBar a {
+    float: left;
     display: block;
     color: white;
     text-align: center;
