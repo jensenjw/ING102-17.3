@@ -1,7 +1,17 @@
+div.row {
+  content: "";
+  display: table;
+  clear: all;
+}
+
+div.columnleft {
+  column-count: 1;
+  float: left;
+}
+
 div.kontaktadresse > p {
   text-align: left;
 }
-<<<<<<< HEAD
 
 div.kontaktadresse > h2 {
   text-align: left;
@@ -9,15 +19,16 @@ div.kontaktadresse > h2 {
 
 div.tider {
   text-align: left;
-=======
+}
+
 div.columnright {
   column-count: 1;
   float: right;
 }
+
 div.columnmid {
   column-count: 1;
   float: middle;
->>>>>>> a9ea1f6f9a3fe000a1005864142d16eea8a60054
 }
 
 
@@ -29,3 +40,39 @@ div.kundeservice > p {
   text-align: right; 
 
 }
+div.columnmiddle > a {
+  float: center;
+
+}
+/* Text and bodies */
+body {
+  background-color:#254e5a;
+} 
+div.text {
+text-align: left;
+}
+
+h1, h2{
+  color: white; 
+  float: center;
+  text-align: center;
+}
+
+a {
+  color: white;  
+  font-size: 24px;
+  text-align:right;
+  margin-left: 120px;
+}
+p {
+font-size: 24px;
+color: white;
+text-align: left;
+}
+
+/* Pitures */
+img {
+  width:100%;
+  height: 700px;
+}
+
