@@ -2,11 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS\kontakt.css" type="text/css">
+        <link rel="stylesheet" href="CSS\Navbar.css" type="text/css">
+        <link rel="stylesheet" href="CSS\stylesheet.css" type="text/css">
         <title>Kontaktside</title>
     </head>
     <body>
         <div class = "NavBar">
-            <ul>
+            <ul class = "NavBar">
                 <li><a href="Index.html">Hjem</a></li>
                 <li><a href="Ladingside.html">Ladestasjoner</a></li>
                 <li><a href="Om.html">Info</a></li>
@@ -56,16 +58,18 @@
 </br>
 </br>
 </br>
-        <form action="/action_page.php" id="usrform">
+        <a>
             Navn: <input type="text" name="usrname" style="background-color: #246579">
             
             Email: <input type="text" email="usremail" style="background-color: #246579;">
-                   <input type="submit" style="background-color: #246579;">
-        </form>
+                   <a href="kontaktsvar.html"><input type="submit" style="background-color: #246579;"></a>
+        </a>
 </br>
-        <textarea rows="16" cols="80" name="Kommentar" form="usrform" style="background-color: #246579;">
+</br>
+        <form>
+        <textarea rows="20%" cols="80%" name="Kommentar" form="usrform" style="background-color: #246579;">
             Skriv inn her... </textarea>
-
+        </form>
     </div>
 
 </body>

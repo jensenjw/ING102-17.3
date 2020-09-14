@@ -2,11 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS\Ladingside.css" type="text/css">
+        <link rel="stylesheet" href="CSS\Navbar.css" type="text/css">
+        <link rel="stylesheet" href="CSS\stylesheet.css" type="text/css">
         <title>Ladestasjoner</title>
     </head>
     <body>
         <div class = "NavBar">
-            <ul>
+            <ul class = "NavBar">
                 <li><a href="Index.html">Hjem</a></li>
                 <li><a href="Ladingside.html">Ladestasjoner</a></li>
                 <li><a href="Om.html">Info</a></li>
@@ -32,17 +34,23 @@
         </iframe>
 
         <p>Velg fylke du vil finne ladestasjon til</p>
-        <select name="fylke">
+        <select name="fylke" id="fylke">
+            <label for="fylke"></label>
+
             <option value="vestland">Vestland</option>
             <option value="rogaland">Rogaland</option>
             <option value="vest-agder">Vest-Agder</option>
+
         </select>
 
         <p>Velg hvilket sted du vil finne ladestasjon til</p>
-        <select name="sted">
+        <select name="sted" id="sted">
+            <label for="sted"></label>
+
             <option value="bergen">Bergen</option>
             <option value="stavanger">Stavanger</option>
             <option value="kristiansand">Kristiansand</option>
+
         </select>
 
             
