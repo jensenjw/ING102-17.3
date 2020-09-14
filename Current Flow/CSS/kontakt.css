@@ -10,6 +10,9 @@ div.column3 {
   column-count: 1;
   text-align: center;
 }
+.column1, .column2, column3 {
+  width: 33.33%;
+}
 .row {
   content: "";
   display: table;
