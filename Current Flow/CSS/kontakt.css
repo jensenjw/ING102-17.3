@@ -1,46 +1,15 @@
-div.row {
-  content: "";
-  display: table;
-  clear: all;
-}
 
-div.columnleft {
-  column-count: 1;
+div.Left {
+  padding: 0px 0px 0px 30px;
   float: left;
+  vertical-align: top;
 }
 
-div.kontaktadresse > p {
-  text-align: left;
-}
-
-div.kontaktadresse > h2 {
-  text-align: left;
-}
-
-div.tider {
-  text-align: left;
-}
-
-div.columnright {
-  column-count: 1;
+div.Right {
+  padding: 0px 280px 0px 0px;
   float: right;
+  vertical-align: top;
 }
-
-div.columnmid {
-  column-count: 1;
-  float: middle;
-}
-
-
-div.kundeservice > h2 {
-  text-align: right; 
-}
-
-div.kundeservice > p {
-  text-align: right; 
-
-}
-div.columnmiddle > a {
-  float: center;
-
+p,h2 {
+  position: relative;
 }
