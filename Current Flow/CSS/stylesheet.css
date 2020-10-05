@@ -33,5 +33,17 @@ img.liteBilde {
   width: 185px;
   height: 169px;
 }
+/*Kontakt CSS*/
+div.Left {
+  padding: 0px 0px 0px 30px;
+  float: left;
+  vertical-align: top;
+}
+
+div.Right {
+  padding: 0px 280px 0px 0px;
+  float: right;
+  vertical-align: top;
+}
 
   
