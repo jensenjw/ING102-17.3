@@ -64,10 +64,11 @@
             
             <p>Andre tjenester</p>
                 <ul class="ladeliste">
-                    <li>Toalett</li>
-                    <li>Cafe</li>
+                    <li>Vann</li>
+                    <li>Strøm</li>
+                    <li>Sanitæranlegg med dusj</li>
+                    <li>Vaskemaskin og tørketrommel</li>
                     <li>Tømming av avfall og resirkulering</li>
-                    <li>Ferskvann</li>
                  </ul>
             <p>Ladetid kalkulator</p>
             <p>

@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
         <link rel="stylesheet" href="CSS/Navbar.css" type="text/css">
 
-        <title> Ladestasjon Bergen</title>
+        <title> Ladestasjon Grimstad</title>
     </head>
         <body>
             <div class = "NavBar">
@@ -17,18 +17,18 @@
                 </ul>
             </div>
 
-            <h1>Bergen Ladestasjon for elbåt</h1>
+            <h1>Grimstad Ladestasjon for elbåt</h1>
             <p>Addresse<p>
-            <p> Addresse: Verftet, 5011 Bergen <br>
-                Geo lokasjon: 60.393898, 5.310865 <br>
+            <p> Smith Petersens gate 16, Grimstad <br>
+                Geo lokasjon: 58.341399, 8.596311 <br>
 
                 <iframe
                  width="450"
                  height="350"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6943.211142668666!2d5.3088240264333!3d60.39548500073625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDIzJzM4LjAiTiA1wrAxOCczOS4xIkU!5e0!3m2!1sen!2sno!4v1600069805423!5m2!1sen!2sno" >
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.5613287918968!2d8.594090015526834!3d58.34142178132409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4647ee6234c579a5%3A0x262413ecd7555823!2sSmith%20Petersens%20gate%2016%2C%204876%20Grimstad!5e1!3m2!1sno!2sno!4v1601886800561!5m2!1sno!2sno" >
                 </iframe>
                 <br>
-            <a href="https://goo.gl/maps/cq55WqArLqnegQeb8">Trykk her for veibeskrivelse til ladestasjon Verftet (Bergen)</a><br>  
+            <a href="https://goo.gl/maps/YJEfqxMrwTSKjdDYA">Trykk her for veibeskrivelse til ladestasjon Grimstad</a><br>  
             </p>
             <h2>Lading og fasiliteter</h2>
            
@@ -64,10 +64,16 @@
             
             <p>Andre tjenester</p>
                 <ul class="ladeliste">
-                    <li>Toalett</li>
-                    <li>Cafe</li>
+                    <li>Vann</li>
+                    <li>Strøm</li>
+                    <li>Sanitæranlegg med dusj</li>
+                    <li>Vaskemaskin og tørketrommel</li>
                     <li>Tømming av avfall og resirkulering</li>
-                    <li>Ferskvann</li>
+                    <li>Gratis trådløst internett for alle båtgjester</li>
+                    <li>"5 minutter til alt" - butikker, restauranter, kaffebarer, kino, bibliotek og turistkontor</li>
+                    <li>Besøk 
+                    <a href="https://www.visitnorway.no/reisemal/sorlandet/grimstad/listings-grimstad/grimstad-gjestehavn/18708/">Visit Norway</a>
+                    for mer informasjon om Tollbodbrygga gjestehavn </li><br>
                  </ul>
             <p>Ladetid kalkulator</p>
             <p>
