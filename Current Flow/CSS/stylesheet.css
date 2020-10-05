@@ -46,4 +46,26 @@ div.Right {
   vertical-align: top;
 }
 
-  
+  /* Tables and lists */
+ul.NavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+  li.NavBar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+  background-color: blue;
+  }
