@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="nb">
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/LS_bergen.css" type="text/css">
         <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
+        <link rel="stylesheet" href="CSS/Navbar.css" type="text/css">
 
-        <title> Ladestasjon Bergen</title>
+        <title> Ladestasjon Farsund</title>
     </head>
         <body>
             <div class = "NavBar">
@@ -17,18 +17,18 @@
                 </ul>
             </div>
 
-            <h1>Bergen Ladestasjon for elbåt</h1>
+            <h1>Farsund Ladestasjon for elbåt</h1>
             <p>Addresse<p>
-            <p> Addresse: Verftet, 5011 Bergen <br>
-                Geo lokasjon: 60.393898, 5.310865 <br>
+            <p> Addresse: Barbros gate 10, 4550 Farsund <br>
+                Geo lokasjon: 58.091947, 6.807751 <br>
 
                 <iframe
                  width="450"
                  height="350"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6943.211142668666!2d5.3088240264333!3d60.39548500073625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDIzJzM4LjAiTiA1wrAxOCczOS4xIkU!5e0!3m2!1sen!2sno!4v1600069805423!5m2!1sen!2sno" >
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1716.1858707646893!2d6.805573315501111!3d58.09194381665009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf12f15eda518d94d!2sFarsund%20Gjestehavn!5e1!3m2!1sno!2sno!4v1601886236910!5m2!1sno!2sno" >
                 </iframe>
                 <br>
-            <a href="https://goo.gl/maps/cq55WqArLqnegQeb8">Trykk her for veibeskrivelse til ladestasjon Verftet (Bergen)</a><br>  
+            <a href="https://goo.gl/maps/53PneBJQoqFvogjq9">Trykk her for veibeskrivelse til ladestasjon Farsund </a><br>  
             </p>
             <h2>Lading og fasiliteter</h2>
            
@@ -64,10 +64,11 @@
             
             <p>Andre tjenester</p>
                 <ul class="ladeliste">
-                    <li>Toalett</li>
-                    <li>Cafe</li>
+                    <li>Vann</li>
+                    <li>Strøm</li>
+                    <li>Sanitæranlegg med dusj</li>
+                    <li>Vaskemaskin og tørketrommel</li>
                     <li>Tømming av avfall og resirkulering</li>
-                    <li>Ferskvann</li>
                  </ul>
             <p>Ladetid kalkulator</p>
             <p>
