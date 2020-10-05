@@ -1,6 +1,7 @@
 /* Text and bodies */
 body {
     background-color:#254e5a;
+    font-family: 'Open Sans', sans-serif;
 } 
 div.text {
   text-align: left;
