@@ -105,7 +105,7 @@ ul.by {
 
 ul.by li {
   
-  display: block;
+  display: none;
   position: relative;
 }
 .arrow {
@@ -135,7 +135,7 @@ li .arrow {
   ul.fylke a:hover{
     background-color: blue;
   }
-  li.Agder:hover ul.by{
+  li.Agder:hover ul.by a{
     
     display: block;
   }
