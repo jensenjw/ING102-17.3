@@ -67,7 +67,7 @@ ul.NavBar {
   background-color: black;
 }
 
-  li.NavBar a {
+li.NavBar a{
   float: left;
   display: block;
   color: white;
@@ -75,63 +75,67 @@ ul.NavBar {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 24px;
-  }
-   
-  .dropdown {
-    float: left;
-
-  }
-  .dropdown .dropbtn {
-    font-size: 24px;  
-    border: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+  position: relative;
   
-  .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
   
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .arrow {
+}
+ul.fylke {
+  color: white;
+  background-color: black;
+  position: absolute;
+  left: 361px;
+  top: 68px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+ul.fylke li {
+  font-size: 20px;
+  display: block;
+  margin-left:0px;
+  margin-top: 40px;
+  position: relative;  
+}
+
+ul.by {
+  display: none;
+  position: absolute;
+}
+
+ul.by li {
+  
+  display: block;
+  position: relative;
+}
+.arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 2px;
+    padding: 5px;
     margin: 5px;
-    margin-left: 10px;
   }
-  .down {
+li .arrow {
+  float: right;
+  
+}
+.down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
 
   /* Change the link color to #111 (black) on hover */
-  li a:hover, .dropdown:hover .dropbtn{
-  background-color: blue;
-  }
- 
-  .dropdown-content a:hover {
+  ul.NavBar a:hover {
     background-color: blue;
-
+    padding-right: 20 px;
   }
-  
+  ul li:hover ul.fylke {
+    display: block;
+  }
+  ul.fylke a:hover{
+    background-color: blue;
+  }
+  li.Agder:hover ul.by{
+    
+    display: block;
+  }
