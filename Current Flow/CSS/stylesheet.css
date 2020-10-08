@@ -58,6 +58,11 @@ div.Bottom {
   width: 99%;
 }
 
+div.infotekst{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
   /* Tables and lists */
 ul.NavBar {
   list-style-type: none;
