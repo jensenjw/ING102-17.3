@@ -99,28 +99,27 @@ li.NavBar a{
 ul.fylke {
   color: white;
   background-color: black;
+  display: none;
   position: absolute;
   left: 361px;
   top: 68px;
   padding-right: 20px;
   padding-bottom: 20px;
-  display: none;
 }
 
 ul.fylke li {
   font-size: 20px;
-  
   display: block;
+  position: relative; 
   margin-left:0px;
   margin-top: 20px;
-  position: relative;  
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 ul.by {
-  display: none;
   background-color: black;
+  display: none;
   position: absolute;
   left: 265px;
   bottom: 0px;
@@ -156,6 +155,6 @@ li .arrow {
   ul.fylke li:hover {
     background-color: blue;
   }
-  ul.fylke li:hover ul.by {
+  ul li ul li:hover ul.by {
     display: block;
   }
