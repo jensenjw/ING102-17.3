@@ -13,6 +13,13 @@ div.text {
     text-align: center;
   }
 
+div.frameindex{
+
+  width:640;
+  height:480;
+  float: center;
+}
+
   h3.swd {
     color: white
   }
