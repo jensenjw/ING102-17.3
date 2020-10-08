@@ -13,6 +13,10 @@ div.text {
     text-align: center;
   }
 
+  h3.swd {
+    color: white
+  }
+
   a {
     color: white; 
     font-size: 24px;
@@ -56,6 +60,11 @@ div.Bottom {
   position: absolute;
   bottom: 5px;
   width: 99%;
+}
+
+div.infotekst{
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
   /* Tables and lists */
