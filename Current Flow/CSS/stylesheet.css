@@ -13,6 +13,13 @@ div.text {
     text-align: center;
   }
 
+div.frameindex{
+
+  width:640;
+  height:480;
+  float: center;
+}
+
   h3.swd {
     color: white
   }
@@ -35,8 +42,8 @@ img {
     height: 700px;
 }
 img.liteBilde {
-  width: 185px;
-  height: 169px;
+  width: 132px;
+  height: 120px;
 }
 img.bunn {
   width: 100%;
@@ -89,6 +96,7 @@ div.infotekst{
 }
 
   /* Tables and lists */
+  /* NavBar, dropdown*/
 ul.NavBar {
   list-style-type: none;
   margin: 0;
@@ -112,30 +120,34 @@ li.NavBar a{
 ul.fylke {
   color: white;
   background-color: black;
+  display: none;
   position: absolute;
   left: 361px;
   top: 68px;
   padding-right: 20px;
   padding-bottom: 20px;
-  display: none;
 }
 
 ul.fylke li {
   font-size: 20px;
   display: block;
+  position: relative; 
   margin-left:0px;
-  margin-top: 40px;
-  position: relative;  
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 ul.by {
+  background-color: black;
   display: none;
   position: absolute;
+  left: 265px;
+  bottom: 0px;
 }
 
 ul.by li {
-  
-  display: none;
+  display: block;
   position: relative;
 }
 .arrow {
@@ -147,25 +159,23 @@ ul.by li {
   }
 li .arrow {
   float: right;
-  
 }
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
 
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to blue on hover and displays dropdown menu */
   ul.NavBar a:hover {
     background-color: blue;
     padding-right: 20 px;
   }
-  ul li:hover ul.fylke {
+  ul li:hover ul.fylke{
     display: block;
   }
-  ul.fylke a:hover{
+  ul.fylke li:hover {
     background-color: blue;
   }
-  li.Agder:hover ul.by a{
-    
+  ul li ul li:hover ul.by {
     display: block;
   }
