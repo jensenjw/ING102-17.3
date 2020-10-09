@@ -176,6 +176,6 @@ li .arrow {
   ul.fylke li:hover {
     background-color: blue;
   }
-  ul li ul li:hover ul.by {
+  ul li ul li.Agder:hover ul.Agder {
     display: block;
   }
