@@ -125,6 +125,7 @@ div.infotekst{
   li:hover > ul {
     display: block;
     position: absolute;
+    z-index: 2;
   }
   
   li:hover li { float: none; }
