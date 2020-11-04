@@ -150,3 +150,30 @@ div.infotekst{
   a.NavBar {
     text-align: center;
   }
+/* Ladestasjoner */
+  iframe { 
+    margin: 0 auto;
+    display: block;
+  }
+
+  div.lade {
+    text-align: center;
+    color: white;
+  }
+  ul.ladeliste {
+    display: inline-block;
+    align-content: center;
+    background-color: #254e5a;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style: circle;
+  }
+  ul.ladeliste li {
+    background-color: #254e5a;
+    padding: 5px;
+    
+    
+  }
+  a.visit {
+    
+  }
