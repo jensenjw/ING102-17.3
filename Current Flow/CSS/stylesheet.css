@@ -1,6 +1,6 @@
 /* Text and bodies */
 body {
-    background-color:#254e5a;
+    background-color:#1b3d47;
     font-family: 'Open Sans', sans-serif;
 } 
 div.text {
@@ -163,17 +163,26 @@ div.infotekst{
   ul.ladeliste {
     display: inline-block;
     align-content: center;
-    background-color: #254e5a;
+    background-color: #1b3d47;
     list-style-type: circle;
     list-style-position: outside;
     list-style: circle;
+    
   }
   ul.ladeliste li {
-    background-color: #254e5a;
+    background-color: #1b3d47;
     padding: 5px;
+    float: none;
     
     
   }
   a.visit {
-    
+    float: none;
+    display: contents;
+    color: blue;
+    text-decoration: underline;
+  }
+  a.veibeskrivelse {
+    color: blue;
+    text-decoration: underline;
   }
