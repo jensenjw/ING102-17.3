@@ -151,9 +151,12 @@ div.infotekst{
     text-align: center;
   }
 /* Ladestasjoner */
-  iframe { 
+ 
+
+.responsive-iframe { 
     margin: 0 auto;
     display: block;
+    width: 80%;
   }
 
   div.lade {
@@ -185,4 +188,26 @@ div.infotekst{
   a.veibeskrivelse {
     color: blue;
     text-decoration: underline;
+  }
+  .left {
+    width: 30%;
+    float: left;
+    
+    
+  }
+  .right {
+    width: 30%;
+    float: right;
+  }
+  .mid {
+    position: relative;
+    width: 40%;
+    float:right ;
+  }
+  .below {
+    width: 100%;
+    padding-top: 20px;
+  }
+  li.mva {
+    size: 10px;
   }
