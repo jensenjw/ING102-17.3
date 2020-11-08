@@ -1,0 +1,84 @@
+<!DOCTYPE html >
+<html lang="nb">
+
+<head>
+    <title>Myimage</title>
+    <link rel= "stylesheet" href="forventet_ladetid.css">
+    <style type="text/css">
+        img {
+            width: 200px;
+            height: 128px;
+            border: 0;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function showImg1() {
+            var obj = document.getElementById('image01');
+            obj.className = 'show';
+        }
+        function showImg2() {
+            var obj = document.getElementById('image02');
+            obj.className = 'show';
+        }
+        function showImg3() {
+            var obj = document.getElementById('image03');
+            obj.className = 'show';
+        }
+
+    </script>
+    <style>
+        div.image01 {
+          position: relative;
+          left: 0px;
+        }
+        div.image02 {
+          position: relative;
+          left: 000px;
+        }
+        div.image03 {
+          position: relative;
+          left: 000px;
+        }
+        </style>
+</head>
+
+<html>
+
+<body>
+
+    <div class="image01">
+        <p>
+            <img id="image01" src="Bilder/50kW.png" class="hide" style="width:500px;height:600px;"> <br>
+            <input type="button" onclick="show_hide1()" value="70mAh">
+        </p>
+    </div>
+    
+
+    <div class="image02">
+        <p>
+            <img id="image02" src="Bilder/150kW.png" class="hide" style="width:500px;height:600px;"> <br>
+            <input type="button" onclick="show_hide2()" value="140mAh">
+        </p>
+    </div>
+
+    <div class="image03">
+        <p>
+            <img id="image03" src="Bilder/250kW.png" class="hide" style="width:500px;height:600px;"> <br>
+            <input type="button" onclick="show_hide3()" value="210mAh">
+        </p>
+    </div>
+    <script src="forventet_ladetid.js">
+
+    </script>
+
+</body>
+
+</html>
